@@ -78,3 +78,14 @@ body{
   align-items: center;
   padding-left: 2rem;
 }
+
+@media screen and (max-width: 560px) {
+  body{
+    background-color:#fff;
+  }  
+  .container{
+    width: 100vw;
+    height: 100vh;
+    border-radius: 0px;
+  }
+}
