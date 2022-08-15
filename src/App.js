@@ -10,7 +10,7 @@ function App() {
 
   const inputNum = (e) => {
     if (curState.includes(".") && e.target.innerText === ".") return;
-    
+
     if (total) {
       setPreState("");
     }
@@ -92,7 +92,7 @@ function App() {
     <div className='container'>
       <div className='wrapper'>
         <div className='screen'>
-        {input !== "" || input === "0" ? (
+          {input !== "" || input === "0" ? (
             <NumberFormat
               value={input}
               displayType={"text"}
